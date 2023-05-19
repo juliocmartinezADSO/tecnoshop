@@ -1,0 +1,86 @@
+.menu {
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.logo {
+  position: absolute;
+  left: 70px;
+}
+.logo img {
+  width: 100px;
+}
+.line {
+  width: 85%;
+  margin-bottom: -10px;
+}
+.carrito {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.cart-icon img {
+  width: 50px;
+}
+.search-cart {
+  display: flex;
+  align-items: center;
+}
+
+.search-cart div {
+  margin-left: 10px;
+}
+
+.menu-up {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.menu-items ul {
+  display: flex;
+}
+
+.menu-items ul li {
+  list-style: none;
+  margin-left: 10px;
+  border-right: 1px solid black;
+  border-color: darkgrey;
+  padding-right: 6px;
+}
+
+.menu-items ul li a {
+  text-decoration: none;
+  color: black;
+}
+.user-auth {
+  margin-top: 15px;
+
+}
+
+.user-auth a {
+  text-decoration: none;
+  margin-left: 10px;
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+  color: black;
+}
+
+.body {
+  width: 91.5%;
+  height: 1000px;
+  margin: 0 auto;
+  background-image: url("../assets/font.jpg");
+  background-size: 2500px;
+  background-position: center right;
+  opacity: 0.5;
+}
