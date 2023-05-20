@@ -1,0 +1,68 @@
+.containerRegister {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+
+  .form-group {
+    margin-bottom: 20px;
+
+    
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 80%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+   
+  }
+
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .checkbox-group label {
+    margin-bottom: 0;
+  }
+
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .btn-register {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+
+  .btn-register:hover {
+    background-color: #0b7dda;
+  }

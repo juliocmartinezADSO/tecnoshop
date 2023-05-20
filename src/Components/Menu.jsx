@@ -1,12 +1,14 @@
 import React from "react";
+
 import { Fragment } from "react";
 import "./menu.css";
 import logo from "../assets/logo.png";
 import carrito from "../assets/Carrito.png";
-import font from "../assets/font.jpg"
+import font from "../assets/font.jpg";
+import Register from "./RegisterUser";
 const Menu = () => {
   return (
-    <Fragment>
+    <div className="container">
       <div className="logo">
         <img src={logo} alt="Logo" />
       </div>
@@ -55,10 +57,9 @@ const Menu = () => {
           </div>
         </div>
       </div>
-      <div className="body">
+      
 
-      </div>
-    </Fragment>
+    </div>
   );
 };
 

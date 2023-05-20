@@ -1,7 +1,8 @@
+
 .menu {
   background-color: #f2f2f2;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -82,5 +83,5 @@
   background-image: url("../assets/font.jpg");
   background-size: 2500px;
   background-position: center right;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
